@@ -25,7 +25,7 @@ $(document).ready(function(){
         }
     });
 
-    var images = ['cover.jpg', 'cover1.JPG', 'cover2.jpg', 'cover3.jpeg', 'cover4.jpg'];
+    var images = ['cover.jpg', 'cover1.JPG', 'cover2.jpg', 'cover3.jpg', 'cover4.JPG'];
     $('main').css({'background-image': 'url(images/' + images[Math.floor(Math.random() * images.length)] + ')'});
 
    /* $(window).scroll(function () {
